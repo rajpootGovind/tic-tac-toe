@@ -1,0 +1,103 @@
+*{
+    margin:0px;
+    padding: 0px;
+}
+body{
+    /* background-color: rgb(239, 122, 122); */
+    color:black;
+    text-align:center;
+    background-image: radial-gradient(rgb(206, 212, 210),rgb(239,122,122),rgb(239,122,122));
+}
+
+.container{
+    height:70vh;
+    display:flex;
+    justify-content:center;
+    align-items: center;
+}
+.game{
+    height:60vmin;
+    width:60vmin;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+    align-items: center;
+    gap:1.5vmin;
+}
+.box{
+    height:18vmin;
+    width:18vmin;
+    border-radius: 1rem;
+    border:none;
+    box-shadow: 0 0 1px rgba(0,0,0,0.3);
+    font-size: 10vmin;
+    color: red;
+    background-color: rgb(220, 221, 176);
+    font-style: normal;
+}
+#resetBtn{
+    padding:1rem;
+    font-size: 3vmin;
+    border-radius:1rem ;
+    /* background-color: rgb(2, 34, 13);
+    color:aliceblue; */
+    box-shadow: rgb(176, 93, 78) 1px 1px 1px;
+    background-image: radial-gradient(white,black);
+    color:red;
+    position: relative;
+    top:50px;
+}
+
+#newBtn{
+    padding:1rem;
+    font-size: 3vmin;
+    border-radius:1rem ;
+    color:rgb(0, 0, 0); 
+    background-image: radial-gradient(white, black);
+    text-shadow: 1px 0 0px;
+}
+#mssg{
+    font-size: 5vmin;
+    color:rgb(255, 0, 0);
+    /* text-shadow: 1px 1px 2px; */
+    font-weight: 600;
+
+}
+.mssgContainer{
+    width:90vmin;
+    height:35vmin;
+
+    position: absolute;
+    bottom:85px;
+    z-index: +1;
+    background-color:rgba(253, 253, 253, 0.7) ;
+    background-image: linear-gradient(to right bottom,rgba(0,0,0,0.7),rgba(239,122,122));
+}
+ .hide{
+    display:none;
+ }
+ 
+ .container{
+    position: relative;
+    top:50px;
+ }
+
+ html{
+    font-family:sans-serif;
+    font-style:normal;
+
+ }
+ h1{
+    font-size: 70px;
+    position:relative;
+    top:50px;
+    z-index: -1;
+ }
+#myname{
+    position: absolute;
+    z-index: -1;
+    scale: 23;
+    font-weight: 600;
+    color: rgba(185, 114, 114, 0.2);
+
+}

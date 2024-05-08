@@ -7,6 +7,7 @@ body{
     color:black;
     text-align:center;
     background-image: radial-gradient(rgb(206, 212, 210),rgb(239,122,122),rgb(239,122,122));
+    background-attachment: fixed;
 }
 
 .container{
